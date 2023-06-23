@@ -23,6 +23,7 @@ Feature: User must be describe the test datas in the feature file
       }
     """
 
+  @Api
   Scenario: TC03 Background Using
     Given url baseUrl
     And path pathParams

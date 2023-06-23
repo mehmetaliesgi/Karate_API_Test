@@ -1,5 +1,6 @@
 Feature: JSP02 Put Request Sonucu Donen Respose Bilgilerini Test Eder
-  
+
+  @Api
   Scenario: TC02 Put request sonucu donen response expected degerlere uygulanmalı
     Given url "https://jsonplaceholder.typicode.com"
     And path "/posts/70"
